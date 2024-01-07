@@ -1,3 +1,7 @@
+import { MainView } from "@/features/MainView";
+
 export default function Home(){
-    return <h1>Hello</h1>
+    return <MainView>
+        <h1>Some Text</h1>
+    </MainView>
 }
