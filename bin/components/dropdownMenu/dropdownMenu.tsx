@@ -1,5 +1,5 @@
 "use client"
-import { ReactElement, useState } from "react"
+import { ReactElement, useState } from "react"/*
 import { MotionProps, Variants, motion } from "framer-motion"
 import styles from "./dropdownMenu.module.css"
 import arrow from "./arrow.svg"
@@ -32,4 +32,5 @@ export default function DropdownMenu({ children, name }: { children?: React.Reac
             </div>
         </motion.div>
     </div>
-}
+}*/
+export default ({ children, name }: { children?: React.ReactNode[], name: string })=><></> as any;
